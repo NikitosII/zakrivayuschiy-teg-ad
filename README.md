@@ -1,1 +1,1 @@
-https://nikitosii.github.io/zakrivayuschiy-teg-ad/
+https://github.com/NikitosII/zakrivayuschiy-teg-ad.git
