@@ -301,12 +301,7 @@
         </div>
       </div>
 
-      <button
-        class="save-button button-template"
-        type="button"
-        onclick="document.getElementById('save-button__dialog').showModal();"
-        aria-controls="save-button__dialog"
-      >
+      <button class="save-button button-template" type="button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="21"
@@ -318,27 +313,31 @@
         <span class="button__text">Сохранить на память</span>
       </button>
 
-      <dialog id="save-button__dialog">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="21"
-          height="21"
-          class="save-button__disk-svg"
-        >
-          <use href="./svg/floppy.svg#disk" />
-        </svg>
-        <span class="button__text">Вставьте дискету, чтобы продолжить</span>
-        <button
-          class="button-template"
-          type="button"
-          onclick="document.getElementById('save-button__dialog').close()"
-          aria-controls="save-button__dialog"
-        >
-          <span class="button__text">ОК</span>
-        </button>
-      </dialog>
-
     </main>
+
+    <dialog id="save-button__dialog">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="21"
+        height="21"
+        class="save-button__disk-svg"
+      >
+        <use href="./svg/floppy.svg#disk" />
+      </svg>
+      <span class="button__text">Вставьте дискету, чтобы продолжить</span>
+      <button class="button-template" type="button">
+        <span class="button__text">ОК</span>
+      </button>
+    </dialog>
+
     <script src="./scripts/like.js"></script>
+    <script>
+      document.querySelector('.save-button').addEventListener('click', function () {
+        document.querySelector('#save-button__dialog').showModal();
+      });
+      document.querySelector('#save-button__dialog .button-template').addEventListener('click', function () {
+        document.querySelector('#save-button__dialog').close();
+      });
+    </script>
   </body>
 </html>
