@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003333"/>
+      <stop offset="100%" stop-color="#001a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="450" fill="url(#g7)"/>
+  <text x="350" y="180" font-family="monospace" font-size="20" fill="#00ffcc" text-anchor="middle">git commit -m "feat: done"</text>
+  <text x="350" y="230" font-family="monospace" font-size="16" fill="#00cc99" text-anchor="middle">✓ 1 file changed, 247 insertions</text>
+  <text x="350" y="290" font-family="monospace" font-size="55" fill="#00ffcc" text-anchor="middle">✓</text>
+  <text x="350" y="370" font-family="monospace" font-size="18" fill="#00e5bb" text-anchor="middle">Проект сдан!</text>
+</svg>

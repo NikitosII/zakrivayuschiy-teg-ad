@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#0a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="450" fill="url(#g5)"/>
+  <circle cx="350" cy="200" r="100" fill="none" stroke="#ffd700" stroke-width="3" opacity="0.5"/>
+  <circle cx="350" cy="200" r="70" fill="none" stroke="#ffa500" stroke-width="2" opacity="0.6"/>
+  <text x="350" y="210" font-family="monospace" font-size="28" fill="#ffd700" text-anchor="middle">JS</text>
+  <text x="350" y="350" font-family="monospace" font-size="18" fill="#87ceeb" text-anchor="middle">Страница ожила!</text>
+</svg>

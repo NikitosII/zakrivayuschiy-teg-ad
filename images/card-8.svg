@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="50%" stop-color="#2e1a4a"/>
+      <stop offset="100%" stop-color="#4a2a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="450" fill="url(#g8)"/>
+  <text x="350" y="170" font-family="monospace" font-size="42" fill="#c084fc" text-anchor="middle">&lt;/курс&gt;</text>
+  <text x="350" y="260" font-family="monospace" font-size="18" fill="#e9d5ff" text-anchor="middle" opacity="0.8">Закрывающий тег...</text>
+  <text x="350" y="330" font-family="monospace" font-size="22" fill="#a855f7" text-anchor="middle">...открывает новое начало</text>
+</svg>
